@@ -24,7 +24,7 @@ We require to do this because our tool does not do reverse engineering on Macros
   After importing Alce into your pharo launcher you must have, in the list below the tool bar, a new entry named Alce-Northwind. 
   Double click the entry (or click over it and push the button "Launch"). 
   The first time you need to have an internet connection, for the pharo launcher to download the propoer virtual machine. 
-  Right after a new window will open presenting a Pharo image with the Alce tool opened.
+  Right after a new window will open presenting the Alce tool.
 
 
 ## Using Alce 
@@ -32,11 +32,12 @@ We require to do this because our tool does not do reverse engineering on Macros
    These three entries are three different perspectives previously configured by my self to ease the usage. 
    However, if you want to play a bit more, do not hesitate in adding new perspectives with the last button of the tool bar. 
    
-   Once you finished, to quit Pharo you must click on the Pharo entry of the system toolbar (located on the top of the window). 
-   There you will find two quitting options: Quit and Save & Quit. 
-   If you quit without saving, the next time you open the application is going to be in the same status as you found it when you opened.
-   If you quit saving, the next time you open the application is going to be in the same status as it is right now.
-   
+   Once you finished, to quit the application, just close the window with the close button. 
+   You are going to be prompted with three options to do before quitting: "Save", "Discard", "Cancel". 
+  
+   If you choose Discard, the next time you open the application is going to be in the same status as you found it when you opened.
+   If you choose Save, the next time you open the application is going to be in the same status as it is right now.
+   if you choose Cancel, the application wont close. 
    
 
 ## Troubleshooting
