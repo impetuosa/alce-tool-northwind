@@ -1,2 +1,1 @@
-# alce-tool-northwind
-Alce: Predicting Software Migration
+# Alce: Predicting Software Migration
