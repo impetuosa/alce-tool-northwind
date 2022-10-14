@@ -8,7 +8,7 @@ We require to do this because our tool does not do reverse engineering on Macros
   Alce is a tool built on top of Moose [^3] platform. 
   Moose is built on the Pharo language [^4] 
   For getting started you must [download](https://www.pharo.org/download)[^4] first a pharo launcher according to your operative system.
-  If you are a pharo user, the image in the zip file works with a Pharo 10 virtual machine. 
+
   
 ## Importing Alce
   Unzip the Alce-Nortwind.zip file in a place easy to find of your file system. 
