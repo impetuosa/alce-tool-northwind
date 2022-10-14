@@ -42,9 +42,23 @@ We require to do this because our tool does not do reverse engineering on Macros
 
 ## Troubleshooting
 
-  Please if you find any problem on the process do not hesitate sending me an email or adding an issue in this repository.
+  ### A debugger opens automatically when opening the tool 
+     This is a known Pharo bug. It is related with some changes on the API of github and third party libraries. 
+     Im working on solving this issue as fast as possible. 
+     Workaround: By the time been, just close the debugger.
+     The tool will work slowly, but it will still work. 
+     
+  ### The tool wont close 
+     This bug may be related with the first problem. 
+     This bug is of lower priority since it does not affect the usage of the tool directly. 
+     Ill work on it as soon as i finish with the first one. 
+     Work around: kill the application. 
+  
+  Please if you find any other problem on the process do not hesitate sending me an email or adding an issue in this repository.
   Ill be pleased to help you on testing the tool.
-
+  
+  
+  
 
   [^1]: https://www.dropbox.com/s/zvwobrbindggh0o/Alce-Northwind.zip?dl=0
   [^2]: https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/northwind-install
